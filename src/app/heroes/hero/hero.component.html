@@ -15,10 +15,22 @@
   <dd>{{capitalizedName}}</dd>
 </dl>
 
-<button (click)="chagehero()" class="btn btn-primary" >
+<button
+*ngIf="name !== 'Spiderman'"
+(click)="chagehero()"
+class="btn btn-primary" >
   Cambiar nombre
 </button>
 
-<button (click)="changAge()" class="btn btn-primary">
+<button
+*ngIf="age !== 25"
+(click)="changAge()"
+ class="btn btn-primary mx-2">
   Cambiar edad
+</button>
+
+<button
+(click)="resetFrom()"
+ class="btn btn-primary mx-2">
+  Reset
 </button>

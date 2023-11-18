@@ -24,4 +24,12 @@ this.name = 'Spiderman';
 changAge(): void{
   this.age = 25;
 }
+resetFrom(): void{
+  this.name = 'ironman';
+  this.age = 45;
+
+//   document.querySelectorAll('h1')!.forEach(element => {
+// element.innerHTML = '<h1>Desde Angular</h1>'
+//   });
+}
 }
