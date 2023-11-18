@@ -17,4 +17,11 @@ getHeroDescription():string{
 return `${ this.name} - ${this.age}`;
 }
 
+chagehero(): void{
+this.name = 'Spiderman';
+
+}
+changAge(): void{
+  this.age = 25;
+}
 }
