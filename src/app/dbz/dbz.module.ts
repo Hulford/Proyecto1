@@ -12,7 +12,7 @@ import { MainPageComponent } from './pages/main-page.componen';
     CommonModule
   ],
   exports: [
-MainPageComponent
+    MainPageComponent
   ],
 })
 export class DbzModule { }
