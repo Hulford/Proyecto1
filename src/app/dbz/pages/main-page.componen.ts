@@ -24,9 +24,9 @@ this.characters.push(character);
 //characters.push agregar al final del arreglo
 //characters.unshift agregar arriba del arreglo
 }
-// onDeleteCharacter(){
-//   this.characters.splice
-// }
+onDeleteCharacter(index: number){
+  this.characters.splice(index, 1);
+}
 
 }
 
