@@ -12,4 +12,9 @@ public characterList: Character[]=[{
   name:'Trunks',
   power:10
 }]
+
+onDeleteCharacter(index: number):void{
+  // Todo emitir el id del personaje
+  console.log(index)
+}
 }
