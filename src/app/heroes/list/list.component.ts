@@ -13,4 +13,5 @@ removeLastHero():void{
   this.deletedHero = this.heroNames.pop();
 
 }
+
 }
