@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Character } from '../interfaces/character.interfase';
 
 @Component({
   selector: 'app-dbz-main-page',
@@ -6,7 +7,16 @@ import { Component } from '@angular/core';
 })
 
 export class MainPageComponent{
-  constructor() { }
 
-  ngOnInit() { }
+public characters: Character[]=[{
+  name:'Krilin',
+  power:1000
+},{
+  name:'Goku',
+  power:9500
+},{
+  name:'Vegetta',
+  power:7500
+}];
 }
+
